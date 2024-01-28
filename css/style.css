@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+.navbar-nav a {
+    margin-right: 40px;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+.home-section {
+    position: relative;
+    background-image: url('/groupAssignment1.github.io/images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.text-container {
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.text-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.welcomeDetails {
+    margin: 0.87em;
+    font-size: 0.87em;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.portfolio-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.project-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.back-link {
+    margin: 20px auto;
+    padding: 10px;
+    font-size: small;
+    text-decoration: none;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: fit-content;
+    text-align: center;
+}
